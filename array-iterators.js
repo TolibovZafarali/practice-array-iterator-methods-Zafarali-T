@@ -2,7 +2,7 @@
 
 let favoriteCities = ["Seattle", "Tashkent", "Termez", "Saint Louis", "Washington, D.C."];
 favoriteCities.forEach(upperCaseCity => {
-    console.log(`My number #${favoriteCities.indexOf(upperCaseCity) + 1} favorite city is ${upperCaseCity}`);
+    console.log(`My number #${favoriteCities.indexOf(upperCaseCity) + 1} favorite city is ${upperCaseCity.toUpperCase()}`);
 });
 
 //Task 2: Transforming with map()
